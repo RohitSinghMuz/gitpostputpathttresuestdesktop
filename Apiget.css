@@ -1,0 +1,53 @@
+.parentdiv {
+    width: 60%;
+    min-height: 500px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    margin: 1em auto;
+  }
+  .parentdivofbutton {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .creatdadata {
+    padding: 0.8em 2em;
+    margin: 1em;
+  }
+  .elemdata {
+    width: 80%;
+    height: auto;
+    border: 1px solid black;
+    margin: 0em 4em;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+  }
+  
+  .dataeditdelete {
+    display: flex;
+    flex-direction: row;
+  }
+  .eledatalist {
+    border: 1px solid black;
+    padding: 0.6em 0.1em;
+    margin: 0.2em;
+    border-radius: 0.2em;
+  }
+  
+  .btnaddedit {
+    padding: 0.3em 1em;
+    margin: 0.8em;
+  }
+  
+  .fa {
+    margin: 2.1rem;
+    cursor: pointer;
+    pointer-events: auto;
+    background-color: #fff;
+    background-image: none;
+    color: #666;
+    font-size: 2rem;
+    padding: 12px 29px;
+  }
